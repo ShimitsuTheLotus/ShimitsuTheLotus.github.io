@@ -37,6 +37,20 @@ h1
 .KanbanBoarder
 {
     width: 90%;
-    height: 120px;
+    height: 140px;
     margin: 32px auto;
+}
+.KanbanMainImg
+{
+    width: auto;
+    height: 60px;
+    margin: 8px;
+}
+.KanbanTitle
+{
+    margin: 0;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    text-decoration-line: none;
 }
