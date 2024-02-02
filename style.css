@@ -16,3 +16,21 @@ h1
     margin: auto;
     box-shadow: 0 0 4px 0px #999999;
 }
+.Kanban
+{
+    margin: 16px;
+    width: 240px;
+    height: 120px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 4px 4px #999999;
+    border-radius: 8px;
+}
+.Kanban:hover
+{
+    margin: 16px;
+    width: 240px;
+    height: 120px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 4px 4px #9999FF;
+    border-radius: 8px;
+}
