@@ -31,12 +31,14 @@ h1
 }
 .ProjectViewBoard
 {
+    position: relative;
     margin: 0px;
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
     box-shadow: 0 0 4px 4px #999999;
     border-radius: 8px;
+    background-color: #FBFBFE;
 }
 .ProjectViewBoard:hover
 {
@@ -55,14 +57,26 @@ h1
 }
 .ProjectViewBoardMainImg
 {
+    float:  left;
     width: auto;
     height: 60px;
     margin: 8px;
 }
 .ProjectViewBoardTitle
 {
-    margin: 0;
+    float: left;
+    margin: 16px 8px;
     font-weight: bold;
     font-size: xx-large;
     user-select: none;
+}
+.ProjectStatusIndicatorLight
+{
+    position: absolute;
+    bottom: 0;
+    margin: 16px;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: yellowgreen;
 }
