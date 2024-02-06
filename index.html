@@ -20,10 +20,11 @@
         </a>
         <div class="ProjectViewBoard">
           <img class="ProjectViewBoardMainImg"
-            src="https://github.com/ShimitsuTheLotus/Tagme_/blob/main/Building%20files/Assets/StoreLogo.png?raw=true" />
+            src="https://github.com/ShimitsuTheLotus/Tagme_/blob/main/Building%20files/Assets/StoreLogo.png?raw=true"
+            alt="The icon of Tagme_"/>
           <p class="ProjectViewBoardTitle">Tagme_</p>
           <div class="ProjectStatusIndicatorLight"></div>
-          <span id="LanguageBoard">/language/</span>
+          <span class="ProjectStatus">Building</span>
         </div>
       </div>
     </div>
@@ -34,16 +35,6 @@
   <div class="Footer">
 
   </div>
-  <script>
-    var GetRepoLanguageInfo = new XMLHttpRequest();
-    GetRepoLanguageInfo.open('GET', "https://api.github.com/repos/ShimitsuTheLotus/Tamge_/languages");
-    GetRepoLanguageInfo.onload = function () {
-
-    }
-    GetRepoLanguageInfo.send();
-    var LanguageBoard = document.getElementById("LanguageBoard");
-    LanguageBoard.innerHTML = GetRepoLanguageInfo;
-  </script>
 </body>
 
 </html>
