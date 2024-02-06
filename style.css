@@ -83,6 +83,12 @@ h1
     font-size: xx-large;
     user-select: none;
 }
+.ProjectViewBoardProspectus
+{
+    position: absolute;
+    top: 55px;
+    left: 86px;
+}
 .ProjectStatusIndicatorLight
 {
     position: absolute;
@@ -100,4 +106,10 @@ h1
     bottom: 0;
     margin: 16px 64px;
     font-weight: bold;
+}
+.ProjectLink:visited
+{
+    text-decoration: none;
+    color: #1B1B1B;
+    background-color: #1B1B1B;
 }
