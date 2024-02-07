@@ -107,7 +107,7 @@ h1
     margin: 16px 64px;
     font-weight: bold;
 }
-.ProjectLink:visited
+.ProjectLink
 {
     text-decoration: none;
     color: #1B1B1B;
